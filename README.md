@@ -8,3 +8,12 @@ to practice git commands and commits
       B-->D;
       C-->D;
 ```
+```mermaid
+  stateDiagram-v2
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
